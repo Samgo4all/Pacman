@@ -18,3 +18,26 @@
 
 </body>
 </html>
+
+Javascript
+
+function toggleForm(){
+	var formulaire = document.getElementById('formualire');
+
+	if (formstyle.display == 'block') {
+		formulaire.style.display = 'none';
+	}
+	else {
+		formulaire.style.display = 'block';
+	}
+}
+
+css
+
+td
+{
+	border: 1px solid black;
+}
+#formulaire{
+	display:none;
+}
